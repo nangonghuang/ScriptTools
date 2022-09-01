@@ -1,2 +1,2 @@
-# pythonTools
-python tools for self use
+# ScriptTools
+script tools for self use
