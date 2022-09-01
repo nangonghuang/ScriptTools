@@ -177,7 +177,7 @@ def unzip_file(zip_file_path,dst_path):
         zFile.extract(fileM, os.path.join(dst_path))
     zFile.close()
 
-def upload_pgyer(userKey,apiKey,apk_file_path,password=""):
+def upload_pgyer(apiKey,apk_file_path,password=""):
     # 1：公开安装，2：密码安装
     if len(password.strip())>0:
         install_type = 2
